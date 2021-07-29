@@ -39,9 +39,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 KMines is a classic Minesweeper game. The idea is to uncover all the
-squares without blowing up any mines. The idea is to uncover all the
 squares without blowing up any mines. When a mine is blown up, the
 game is over.
+
+%description -l pl.UTF-8
+KMines jest klasyczną grą w Sapera. Celem gry jest odkrycie wszystkich
+kwadratów bez trafiania na miny. Gdy mina wybuchnie, gra jest skończona.
 
 %prep
 %setup -q -n %{kaname}-%{version}
